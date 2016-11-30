@@ -61,7 +61,7 @@ public class Cache extends CordovaPlugin {
 						self.webView.clearCache(true);
 
 						// clear the data
-						self.clearApplicationData();
+						//self.clearApplicationData();
 
 						// send success result to cordova
 						PluginResult result = new PluginResult(PluginResult.Status.OK);
